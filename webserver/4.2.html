@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulier</title>
+</head>
+<body>
+<h2>Welkom!</h2>
+
+<form action="/cgi-bin/4.2.py" method="GET">
+
+  <label for="fname">Roepnaam:</label><br>
+  <input type="text" id="fname" name="roepnaam"><br>
+
+  <label for="lname">Tussenvoegsel:</label><br>
+  <input type="text" id="lname" name="tussenvoegsel"><br>
+
+  <label for="lname">Achternaam:</label><br>
+  <input type="text" id="lname" name="achternaam"><br>
+
+  <input type="radio" name="geslacht" value="man">man<br>
+  <input type="radio" name="geslacht" value="vrouwx">vrouw<br><br>
+  In welke klas zit je<br>
+  <select name="klas" id="cars">
+    <option value="T4I1AD">T4I1AD</option>
+    <option value="D3I1AD">D3I1AD</option>
+    <option value="G2T3AD">G2T3AD</option>
+    <option value="F5U1AD">F5U1AD</option>
+  </select><br><br>
+
+  wat is je favorierte vak?
+  <table>
+    <tr id="even">
+        <th></th>
+        <td><input type="radio" name="vak" value="GDT">GDT<br></th>
+        <td><input type="radio" name="vak" value="eng">Eng<br></td>
+        <td><input type="radio" name="vak" value="nl">Nl<br></td>
+        
+  
+        
+        
+        
+    </tr>
+    <tr id="oneven">
+        <th id="vakken"></th>
+        <td><input type="radio" name="vak" value="Bur">Bur<br></td>
+        <td><input type="radio" name="vak" value="Rek">Rek<br></td>
+        <td><input type="radio" name="vak" value="Dol">Dol<br></td>
+    </tr>
+    
+  
+  
+    <tr id="even">
+        <th id="vakken"></th>
+        <td><input type="radio" name="vak" value="LOB">LOB<br></th>
+        <td><input type="radio" name="vak" value="PGF">PGF<br></td>
+        <td><input type="radio" name="vak" value="T_ItE_1">T_ItE_1<br></td>
+    </tr>
+    
+    
+    <tr id="oneven">
+        <th id="vakken"></th>
+        <td><input type="radio" name="vak" value="WDS">WDS<br></td>
+        <td><input type="radio" name="vak" value="Zelfstudie">Zelfstudie<br></td>
+        <td><input type="radio" name="vak" value="FIT">FIT<br></td>
+    </tr>
+    <tr id="oneven">
+      <th id="vakken"></th>
+      <td><input type="radio" name="vak" value="FSD">FSD<br></td>
+      <td><input type="radio" name="vak" value="GBO">GBO<br></td>
+      <td> </td>
+  </tr>
+    
+  
+</table>
+  
+  
+  
+  
+  
+  
+
+  
+  
+  <input type="submit" value="Submit">
+</form>
+
+</body>
+
+</body>
+</html>
